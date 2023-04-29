@@ -7,18 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A916292629FB31500022C79B /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A916292529FB31500022C79B /* NewView.swift */; };
+		A916292E29FC5C000022C79B /* StarSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A916292D29FC5C000022C79B /* StarSelectionView.swift */; };
 		A9A39BA329F83280001B67D5 /* NoteifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A39BA229F83280001B67D5 /* NoteifyApp.swift */; };
-		A9A39BA529F83280001B67D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A39BA429F83280001B67D5 /* ContentView.swift */; };
+		A9A39BA529F83280001B67D5 /* AlbumListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A39BA429F83280001B67D5 /* AlbumListView.swift */; };
 		A9A39BA729F83282001B67D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A39BA629F83282001B67D5 /* Assets.xcassets */; };
 		A9A39BAA29F83282001B67D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A39BA929F83282001B67D5 /* Preview Assets.xcassets */; };
+		A9A39BB129F832FC001B67D5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9A39BB029F832FC001B67D5 /* GoogleService-Info.plist */; };
+		A9A39BB429F83373001B67D5 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A9A39BB329F83373001B67D5 /* FirebaseAuth */; };
+		A9A39BB629F83373001B67D5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A9A39BB529F83373001B67D5 /* FirebaseFirestore */; };
+		A9A39BB829F83373001B67D5 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A9A39BB729F83373001B67D5 /* FirebaseFirestoreSwift */; };
+		A9A39BBA29F83373001B67D5 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A9A39BB929F83373001B67D5 /* FirebaseStorage */; };
+		A9A39BBC29F833C9001B67D5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A39BBB29F833C9001B67D5 /* LoginView.swift */; };
+		A9A39BBE29F9AE15001B67D5 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A39BBD29F9AE15001B67D5 /* Album.swift */; };
+		A9A39BC229F9B855001B67D5 /* AlbumDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A39BC129F9B855001B67D5 /* AlbumDetailView.swift */; };
+		A9A39BC629FB0712001B67D5 /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A39BC529FB0712001B67D5 /* AlbumViewModel.swift */; };
+		A9A39BC829FB08C5001B67D5 /* AlbumSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A39BC729FB08C5001B67D5 /* AlbumSearchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A916292529FB31500022C79B /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
+		A916292929FB3BA70022C79B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A916292D29FC5C000022C79B /* StarSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarSelectionView.swift; sourceTree = "<group>"; };
 		A9A39B9F29F83280001B67D5 /* Noteify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noteify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A39BA229F83280001B67D5 /* NoteifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteifyApp.swift; sourceTree = "<group>"; };
-		A9A39BA429F83280001B67D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A9A39BA429F83280001B67D5 /* AlbumListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListView.swift; sourceTree = "<group>"; };
 		A9A39BA629F83282001B67D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9A39BA929F83282001B67D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A9A39BB029F832FC001B67D5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A9A39BBB29F833C9001B67D5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A9A39BBD29F9AE15001B67D5 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		A9A39BC129F9B855001B67D5 /* AlbumDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailView.swift; sourceTree = "<group>"; };
+		A9A39BC529FB0712001B67D5 /* AlbumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
+		A9A39BC729FB08C5001B67D5 /* AlbumSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumSearchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9A39BB429F83373001B67D5 /* FirebaseAuth in Frameworks */,
+				A9A39BBA29F83373001B67D5 /* FirebaseStorage in Frameworks */,
+				A9A39BB629F83373001B67D5 /* FirebaseFirestore in Frameworks */,
+				A9A39BB829F83373001B67D5 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A916292F29FCC8130022C79B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A9A39BC529FB0712001B67D5 /* AlbumViewModel.swift */,
+				A9A39BC729FB08C5001B67D5 /* AlbumSearchViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A916293029FCC82A0022C79B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A9A39BBB29F833C9001B67D5 /* LoginView.swift */,
+				A9A39BA429F83280001B67D5 /* AlbumListView.swift */,
+				A916292529FB31500022C79B /* NewView.swift */,
+				A9A39BC129F9B855001B67D5 /* AlbumDetailView.swift */,
+				A916292D29FC5C000022C79B /* StarSelectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A9A39B9629F83280001B67D5 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +97,13 @@
 		A9A39BA129F83280001B67D5 /* Noteify */ = {
 			isa = PBXGroup;
 			children = (
+				A916292929FB3BA70022C79B /* Info.plist */,
 				A9A39BA229F83280001B67D5 /* NoteifyApp.swift */,
-				A9A39BA429F83280001B67D5 /* ContentView.swift */,
+				A9A39BBD29F9AE15001B67D5 /* Album.swift */,
+				A916292F29FCC8130022C79B /* ViewModels */,
+				A916293029FCC82A0022C79B /* Views */,
 				A9A39BA629F83282001B67D5 /* Assets.xcassets */,
+				A9A39BB029F832FC001B67D5 /* GoogleService-Info.plist */,
 				A9A39BA829F83282001B67D5 /* Preview Content */,
 			);
 			path = Noteify;
@@ -83,6 +133,12 @@
 			dependencies = (
 			);
 			name = Noteify;
+			packageProductDependencies = (
+				A9A39BB329F83373001B67D5 /* FirebaseAuth */,
+				A9A39BB529F83373001B67D5 /* FirebaseFirestore */,
+				A9A39BB729F83373001B67D5 /* FirebaseFirestoreSwift */,
+				A9A39BB929F83373001B67D5 /* FirebaseStorage */,
+			);
 			productName = Noteify;
 			productReference = A9A39B9F29F83280001B67D5 /* Noteify.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +167,9 @@
 				Base,
 			);
 			mainGroup = A9A39B9629F83280001B67D5;
+			packageReferences = (
+				A9A39BB229F83373001B67D5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = A9A39BA029F83280001B67D5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +186,7 @@
 			files = (
 				A9A39BAA29F83282001B67D5 /* Preview Assets.xcassets in Resources */,
 				A9A39BA729F83282001B67D5 /* Assets.xcassets in Resources */,
+				A9A39BB129F832FC001B67D5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +197,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9A39BA529F83280001B67D5 /* ContentView.swift in Sources */,
+				A9A39BC229F9B855001B67D5 /* AlbumDetailView.swift in Sources */,
+				A9A39BBC29F833C9001B67D5 /* LoginView.swift in Sources */,
+				A9A39BA529F83280001B67D5 /* AlbumListView.swift in Sources */,
+				A916292629FB31500022C79B /* NewView.swift in Sources */,
+				A9A39BC629FB0712001B67D5 /* AlbumViewModel.swift in Sources */,
+				A9A39BC829FB08C5001B67D5 /* AlbumSearchViewModel.swift in Sources */,
 				A9A39BA329F83280001B67D5 /* NoteifyApp.swift in Sources */,
+				A916292E29FC5C000022C79B /* StarSelectionView.swift in Sources */,
+				A9A39BBE29F9AE15001B67D5 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +337,8 @@
 				DEVELOPMENT_TEAM = V9Q99LG67S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Noteify/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +368,8 @@
 				DEVELOPMENT_TEAM = V9Q99LG67S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Noteify/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +410,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A9A39BB229F83373001B67D5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A9A39BB329F83373001B67D5 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A39BB229F83373001B67D5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		A9A39BB529F83373001B67D5 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A39BB229F83373001B67D5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		A9A39BB729F83373001B67D5 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A39BB229F83373001B67D5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		A9A39BB929F83373001B67D5 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A39BB229F83373001B67D5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A9A39B9729F83280001B67D5 /* Project object */;
 }
